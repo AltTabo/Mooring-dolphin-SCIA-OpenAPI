@@ -1,0 +1,11 @@
+C:\Users\Gustavo\source\repos\TCC\bin\x64\Debug\net48\EsaProjects\EmptyProject22.1.esa
+C:\Users\Gustavo\source\repos\TCC\bin\x64\Debug\net48\TCC.exe.config
+C:\Users\Gustavo\source\repos\TCC\bin\x64\Debug\net48\TCC.exe
+C:\Users\Gustavo\source\repos\TCC\bin\x64\Debug\net48\TCC.pdb
+C:\Users\Gustavo\source\repos\TCC\obj\x64\Debug\net48\TCC.csproj.AssemblyReference.cache
+C:\Users\Gustavo\source\repos\TCC\obj\x64\Debug\net48\TCC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\source\repos\TCC\obj\x64\Debug\net48\TCC.AssemblyInfoInputs.cache
+C:\Users\Gustavo\source\repos\TCC\obj\x64\Debug\net48\TCC.AssemblyInfo.cs
+C:\Users\Gustavo\source\repos\TCC\obj\x64\Debug\net48\TCC.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\source\repos\TCC\obj\x64\Debug\net48\TCC.exe
+C:\Users\Gustavo\source\repos\TCC\obj\x64\Debug\net48\TCC.pdb
