@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Platforms>x64</Platforms>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net48</TargetFramework>
+		<AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+	  <FileAlignment>512</FileAlignment>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+	  <FileAlignment>512</FileAlignment>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="SCIA.OpenAPI">
+			<HintPath>C:\Program Files\SCIA\Engineer22.1\SCIA.OpenAPI.dll</HintPath>
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+		</Reference>
+		
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Reference Include="CSInfrastructure">
+			<HintPath>C:\Program Files\SCIA\Engineer22.1\OpenAPI_dll\CSInfrastructure.dll</HintPath>
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+		</Reference>
+		<Reference Include="ModelExchanger.AnalysisDataModel">
+			<HintPath>C:\Program Files\SCIA\Engineer22.1\OpenAPI_dll\ModelExchanger.AnalysisDataModel.dll</HintPath>
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+		</Reference>
+		<Reference Include="ModelExchanger.AnalysisDataModel.Contracts">
+			<HintPath>C:\Program Files\SCIA\Engineer22.1\OpenAPI_dll\ModelExchanger.AnalysisDataModel.Contracts.dll</HintPath>
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+		</Reference>
+		<Reference Include="ModelExchanger.AnalysisDataModel.Integration.Bootstrapper">
+			<HintPath>C:\Program Files\SCIA\Engineer22.1\OpenAPI_dll\ModelExchanger.AnalysisDataModel.Integration.Bootstrapper.dll</HintPath>
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+		</Reference>
+		<Reference Include="ModelExchanger.Shared.Models">
+			<HintPath>C:\Program Files\SCIA\Engineer22.1\OpenAPI_dll\ModelExchanger.Shared.Models.dll</HintPath>
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+		</Reference>
+		<Reference Include="SciaTools.AdmToAdm.AdmSignalR.Models">
+			<HintPath>C:\Program Files\SCIA\Engineer22.1\OpenAPI_dll\SciaTools.AdmToAdm.AdmSignalR.Models.dll</HintPath>
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+		</Reference>
+		<Reference Include="UIAutomationClient" />
+		<Reference Include="UIAutomationTypes" />
+		<Reference Include="UnitsNet">
+			<HintPath>C:\Program Files\SCIA\Engineer22.1\OpenAPI_dll\UnitsNet.dll</HintPath>
+			<Private>False</Private>
+			<CopyLocal>False</CopyLocal>
+		</Reference>
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Compile Include="Janelas2.cs" />
+		<Compile Include="Janelas.cs" />
+		<Compile Include="Valores.cs" />
+		<Compile Include="Program.cs" />
+		<Compile Include="Tools.cs" />
+		<Compile Include="ConsoleHelper.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="EsaProjects\EmptyProject22.1.esa">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<Compile Include="Examples\ExamplesMenu.cs" />
+	</ItemGroup>
+	
+	
+	<ItemGroup>
+		<Compile Include="Examples\CreateModelWithAdmExample.cs" />
+	</ItemGroup>
+	
+</Project>
