@@ -151,27 +151,6 @@ namespace TCC_R04
     }
 }
 
-    //public class Resultados_el_env_FiD_mag
-    //{
-    //    public bool Estaca_Laje { get; set; } // True = Estaca ; False = Laje
-    //    public string Tipo_envoltoria { get; set; }
-    //    public bool ForcaInterna_Deformacao { get; set; } //True = Força interna ; False = Deformação
-    //    public string Magnitude { get; set; }
-    //    public double Minimo { get; set; }
-    //    public double Maximo { get; set; }
-    //    public Resultados_el_env_FiD_mag( bool estaca_laje, string tipo_envoltoria, bool forcainterna_deformacao, string magnitude, double minimo, double maximo)
-    //    {
-    //        Estaca_Laje = estaca_laje;
-    //        Tipo_envoltoria = tipo_envoltoria;
-    //        ForcaInterna_Deformacao = forcainterna_deformacao;
-    //        Magnitude = magnitude;
-    //        Minimo = minimo;
-    //        Maximo = maximo;
-    //    }
-    //    public double Maximo_abs()
-    //    {
-    //        return Math.Max(Math.Abs(Minimo), Math.Abs(Maximo));
-    //    }
 
     //}
 
