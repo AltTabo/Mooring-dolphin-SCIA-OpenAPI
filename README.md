@@ -58,7 +58,7 @@ c:	Espessura da laje em metros, apresentada no eixo Z
 
 α:	Ângulo de inclinação da estaca com relação à sua projeção no plano XY
 
-β:	Ângulo de rotação da projeção da estaca no plano XY em relação ao eixo X
+β:	Ângulo de rotação da projeção da estaca no plano XY em relação ao eixo Y
 
 Cab_x:	Distância do eixo central de cada cabeço em relação às bordas paralelas ao eixo Y
 
@@ -79,7 +79,7 @@ hconcretada:	Altura da estaca a ser concretada
 
 Parâmetros geométricos do modelo, vista superior
 
-![image](https://github.com/AltTabo/Mooring-dolphin-SCIA-OpenAPI/assets/141842536/46d3ba20-6657-40d9-9932-7e0f31e26068)
+![image](https://github.com/AltTabo/Mooring-dolphin-SCIA-OpenAPI/assets/141842536/a466c300-c03b-4631-bf20-6202bf2eabb4)
 
 Parâmetros geométricos do modelo, vista lateral
 
