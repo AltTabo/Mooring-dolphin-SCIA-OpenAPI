@@ -1,6 +1,23 @@
 # Mooring-dolphin-SCIA-OpenAPI
 
-Este programa realiza a modelagem e a análise estrutural de uma ou mais estruturas de dolphins de amarração, utilizando o OpenAPI do SCIA Engineer. Para a modelagem, são definidos os seguintes parâmetros
+Este programa realiza a modelagem e a análise estrutural de uma ou mais estruturas de dolphins de amarração, utilizando o OpenAPI do SCIA Engineer. 
+
+Para utilizar o programa será necessário adaptar os seguintes campos:
+
+
+Linhas 51 e 52:
+
+            Variaveis variaveis = new Variaveis(6, 5, 1.5, 75, 45, 7.7, 21.3, 20, 9.7, 1.5, 1, 4.57e6, 75.405e6, 1.5, 2.5, 5e3, 320, 320, 10e3);
+            Variaveis_iter var_iter = new Variaveis_iter(10, 15, 0, 0, 1, 1, 1, 1);
+
+![image](https://github.com/AltTabo/Mooring-dolphin-SCIA-OpenAPI/assets/141842536/e2c0abb0-7348-40e7-b3a6-2bcd28dcee2a)
+
+![image](https://github.com/AltTabo/Mooring-dolphin-SCIA-OpenAPI/assets/141842536/079fd37c-95e1-45a7-b658-3c744066271e)
+
+
+Para a modelagem, são definidos os seguintes parâmetros:
+
+
 
 13 parâmetros geométricos do modelo:
 
@@ -60,6 +77,8 @@ ForçaCorrente_transv:	Valor da ação de corrente na direção transversal (par
 ForçaCorrente_long:	Valor da ação de corrente na direção longitudinal (paralela ao eixo Y), em N
 
 ForçaCabeço:	Valor da ação de amarração do navio, em N
+
+
 
 
 
