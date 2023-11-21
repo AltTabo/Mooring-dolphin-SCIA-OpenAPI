@@ -169,19 +169,6 @@ namespace TCC_R04 //SciaEngineer.OpenApi.TCC
             foreach (var x in new List<Beam> { cabeco1, cabeco2 }) { model.CreateBeam(x); }
             #endregion
 
-            #region CONEXOES 
-
-            //StructuralPointConnection nolaje1 = new StructuralPointConnection(Guid.NewGuid(), "no_conexao1", UnitsNet.Length.FromMeters(no_estaca_x), UnitsNet.Length.FromMeters(no_estaca_y), UnitsNet.Length.Zero);
-            //StructuralPointConnection nolaje2 = new StructuralPointConnection(Guid.NewGuid(), "no_conexao2", UnitsNet.Length.FromMeters(no_estaca_x), UnitsNet.Length.FromMeters(no_estaca_y), UnitsNet.Length.Zero);
-
-
-
-            //RelConnectsRigidLink intersecao = new RelConnectsRigidLink(Guid.NewGuid(), "RL1", new[] { nolaje1 , nolaje2 });
-
-
-
-            #endregion
-
             #region APOIOS
             /*
             Apoio:
