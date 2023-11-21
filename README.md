@@ -79,7 +79,7 @@ hconcretada:	Altura da estaca a ser concretada
 
 Parâmetros geométricos do modelo, vista superior
 
-![image](https://github.com/AltTabo/Mooring-dolphin-SCIA-OpenAPI/assets/141842536/a466c300-c03b-4631-bf20-6202bf2eabb4)
+![image](https://github.com/AltTabo/Mooring-dolphin-SCIA-OpenAPI/assets/141842536/13ac3e8b-89cb-4181-aca2-3d4a71d50acc)
 
 Parâmetros geométricos do modelo, vista lateral
 
