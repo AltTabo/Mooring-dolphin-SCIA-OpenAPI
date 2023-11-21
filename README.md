@@ -19,8 +19,14 @@ Linhas 68 e 69:
             bool linguagem_en_pt = true; //True = En ; False = Pt
             string processToMonitor = "SCIA Engineer 22.1.2011"; //Alterar cxonforme sua versão, deve ser o mesmo texto que aparece nas caixas de diálogo
 
+Alterar a linha 68 conforme a linguagem do SCIA Engineer.
+Alterar a linha 69 conforme a versão do SCIA Engineer.
 
+Linha 721:
 
+                if (linguagem_en_pt) { processToMonitor += "- student version (64 bit version)"; } else { processToMonitor += "- versão estudantil (Versão 64 bit)"; }
+                
+Altere o texto conforme sua versão, para o trabalho utilizou-se a licença estudantil.
 
 Linhas 51 e 52:
 
@@ -36,8 +42,6 @@ A linha 52 permite que sejam criados diversos modelos de dolphin, variando os pa
 No exemplo acima o α inicia em 75°, com passo de 10° e será executado duas vezes (i.e. 75° e 85°).
 
 ![image](https://github.com/AltTabo/Mooring-dolphin-SCIA-OpenAPI/assets/141842536/079fd37c-95e1-45a7-b658-3c744066271e)
-
-
 
 
 Para a modelagem, são definidos os seguintes parâmetros:
