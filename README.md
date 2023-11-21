@@ -4,15 +4,32 @@ Este programa realiza a modelagem e a análise estrutural de uma ou mais estrutu
 
 Para utilizar o programa será necessário adaptar os seguintes campos:
 
+Linhas 20 a 22:
+
+        private static string SenInstallationPath = "C:\\Program Files\\SCIA\\Engineer22.1\\";
+        private static string SenTempFolder = "C:\\Users\\Gustavo\\ESA22.1\\Temp\\ADMsync\\";
+        private static string SenEmptyProject_ORG = $"{Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}\\EsaProjects\\EmptyProject22.1.esad";
+
+Alterar para o diretório de instalação do SCIA Engineer (linha 20).
+Criar a pasta ADMsync no diretório Temp do SCIA Engineer e alterar o caminho (linha 21).
+A linha 22 encontra a pasta automaticamente.
 
 Linhas 51 e 52:
 
             Variaveis variaveis = new Variaveis(6, 5, 1.5, 75, 45, 7.7, 21.3, 20, 9.7, 1.5, 1, 4.57e6, 75.405e6, 1.5, 2.5, 5e3, 320, 320, 10e3);
-            Variaveis_iter var_iter = new Variaveis_iter(10, 15, 0, 0, 1, 1, 1, 1);
+            Variaveis_iter var_iter = new Variaveis_iter(10, 15, 0, 0, 2, 1, 1, 1);
+
+A linha 51 define os parâmetros necessários para modelar o dolphin, conforme a imagem abaixo:
 
 ![image](https://github.com/AltTabo/Mooring-dolphin-SCIA-OpenAPI/assets/141842536/e2c0abb0-7348-40e7-b3a6-2bcd28dcee2a)
 
+A linha 52 permite que sejam criados diversos modelos de dolphin, variando os parâmetros α, β, Est_x e Est_y. Os valores iniciais são definidos na linha 51, enquanto que o passo e o número de iterações são definidos na linha 52, nas variáveis *_passo e *_iter, respectivamente.
+
+No exemplo acima o α inicia em 75°, com passo de 10° e será executado duas vezes (i.e. 75° e 85°).
+
 ![image](https://github.com/AltTabo/Mooring-dolphin-SCIA-OpenAPI/assets/141842536/079fd37c-95e1-45a7-b658-3c744066271e)
+
+
 
 
 Para a modelagem, são definidos os seguintes parâmetros:
