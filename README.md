@@ -14,6 +14,14 @@ Alterar para o diretório de instalação do SCIA Engineer (linha 20).
 Criar a pasta ADMsync no diretório Temp do SCIA Engineer e alterar o caminho (linha 21).
 A linha 22 encontra a pasta automaticamente.
 
+Linhas 68 e 69:
+
+            bool linguagem_en_pt = true; //True = En ; False = Pt
+            string processToMonitor = "SCIA Engineer 22.1.2011"; //Alterar cxonforme sua versão, deve ser o mesmo texto que aparece nas caixas de diálogo
+
+
+
+
 Linhas 51 e 52:
 
             Variaveis variaveis = new Variaveis(6, 5, 1.5, 75, 45, 7.7, 21.3, 20, 9.7, 1.5, 1, 4.57e6, 75.405e6, 1.5, 2.5, 5e3, 320, 320, 10e3);
