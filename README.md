@@ -3,19 +3,33 @@
 Este programa realiza a modelagem e a análise estrutural de uma ou mais estruturas de dolphins de amarração, utilizando o OpenAPI do SCIA Engineer. Para a modelagem, são definidos os seguintes parâmetros
 
 13 parâmetros geométricos do modelo:
+
 a:	Largura da laje em metros, apresentada no eixo X
+
 b:	Comprimento da laje em metros, apresentada no eixo Y
+
 c:	Espessura da laje em metros, apresentada no eixo Z
+
 α:	Ângulo de inclinação da estaca com relação à sua projeção no plano XY
+
 β:	Ângulo de rotação da projeção da estaca no plano XY em relação ao eixo X
+
 Cab_x:	Distância do eixo central de cada cabeço em relação às bordas paralelas ao eixo Y
+
 Cab_y:	Distância do eixo central de cada cabeço em relação ao eixo X (b/2 ≤ Cab_y < b)
+
 Est_x:	Distância do centro da estaca no plano XY em relação às bordas paralelas ao eixo X
+
 Est_y:	Distância do centro da estaca no plano XY em relação às bordas paralelas ao eixo Y
+
 hsolo:	Profundidade de solo em que a extremidade da estaca se apoia
+
 hlaje_solo:	Altura da laje (plano XY) com relação ao solo
+
 hnível_água:	Altura máxima do nível da agua (utilizado para o cálculo das forças de corrente)
+
 hconcretada:	Altura da estaca a ser concretada
+
 
 Parâmetros geométricos do modelo, vista superior
 
@@ -34,11 +48,18 @@ Parâmetros de altura do modelo
 ![image](https://github.com/AltTabo/Mooring-dolphin-SCIA-OpenAPI/assets/141842536/a2ee55b5-5fca-438d-b240-63c96c371497)
 
 6 outros parâmetros do modelo:
+
 Rigidezinicial:	Valor inicial da rigidez do solo, em N/m
+
 Rigidezfinal:	Valor final da rigidez do solo, em N/m
-Sobrecarga:	Valor da ação de sobrecarga, em N/m² (10 kN/m² conforme Erro! Fonte de referência não encontrada.)
+
+Sobrecarga:	Valor da ação de sobrecarga, em N/m² 
+
 ForçaCorrente_transv:	Valor da ação de corrente na direção transversal (paralela ao eixo X), em N
+
 ForçaCorrente_long:	Valor da ação de corrente na direção longitudinal (paralela ao eixo Y), em N
+
 ForçaCabeço:	Valor da ação de amarração do navio, em N
+
 
 
