@@ -1,5 +1,9 @@
 # Mooring-dolphin-SCIA-OpenAPI
 
+
+Vídeo com dicas para a utilização do programa: https://youtu.be/KHTKDsQr15U
+
+
 Este programa realiza a modelagem e a análise estrutural de uma ou mais estruturas de dolphins de amarração, utilizando o OpenAPI do SCIA Engineer. 
 
 Para utilizar o programa será necessário adaptar os seguintes campos:
